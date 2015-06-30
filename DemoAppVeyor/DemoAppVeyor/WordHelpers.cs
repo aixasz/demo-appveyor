@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DemoAppVeyor
 {
-    public class WordHelpers
+    public static class WordHelpers
     {
+        public static Func<string, string, string> Fullname = (x, y) => string.Format("{0} {1}", x, y);
     }
 }

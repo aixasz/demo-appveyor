@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAppVeyor", "DemoAppVeyor\DemoAppVeyor.csproj", "{7A728B85-5855-49EA-BA3B-160F9B1D087E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAppVeyor.Test", "DemoAppVeyor.Test\DemoAppVeyor.Test.csproj", "{226A449D-56B8-4973-B4BB-FB0A985FD95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7A728B85-5855-49EA-BA3B-160F9B1D087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A728B85-5855-49EA-BA3B-160F9B1D087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A728B85-5855-49EA-BA3B-160F9B1D087E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226A449D-56B8-4973-B4BB-FB0A985FD95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226A449D-56B8-4973-B4BB-FB0A985FD95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226A449D-56B8-4973-B4BB-FB0A985FD95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226A449D-56B8-4973-B4BB-FB0A985FD95F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
