@@ -1,0 +1,9 @@
+test:
+  # assemblies to test - optional
+  assemblies:
+    - test-DemoAppVeyor.Test.dll
+  
+  # categories to test - optional
+  categories:
+    - Name
+    
